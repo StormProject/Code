@@ -1,0 +1,71 @@
+ul li
+{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+#header{
+	 background-color: #98AFC7;
+}
+#footer{
+	background-color: #98AFC7;
+	clear: both;
+	text-align: center;
+}
+.h1{
+	margin-bottom: 0;
+}
+#menu{
+	height: 80%;
+	width: 300px;
+	float: left;
+}
+#content{
+	height: 80%;
+	width: 600px;
+	float: left;
+}
+
+#menu .accordion{
+	font: bold 14px Arial, sans-serif; 
+	border-top: 1px solid #ccc; 
+	border-right: 1px solid #ccc; 
+	border-left: 1px solid #ccc;
+	}
+#menu .accordion, .grey .accordion li {
+	margin: 0; 
+	padding: 0; 
+	border: none;
+	}
+#menu .accordion a {
+	padding: 10px 10px 10px 50px; 
+	background: #ececec; 
+	text-decoration:none; 
+	display: block; 
+	color: #333; 
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #fff; 
+	position: relative; 
+	text-shadow: 1px 1px 1px #fff;
+	}
+#menu .accordion a.dcjq-parent, .grey .accordion a.dcjq-parent:hover {
+	background: #D7D4D4 url(images/bg_grey.png) repeat-x 0 -1px;
+	}
+#menu .accordion a.dcjq-parent.active {}
+#menu .accordion a .dcjq-icon {
+	position: absolute; 
+	top: 50%; 
+	left: 14px; 
+	width: 34px; 
+	margin-top: -17px; 
+	height: 34px; 
+	background: url(images/arrow_grey_right.png) no-repeat 0 center;
+	}
+#menu .accordion a.dcjq-parent.active .dcjq-icon {
+	background: url(images/arrow_grey_down.png) no-repeat 0 center;
+	}
+#menu .accordion a:hover {
+	background: #fff; 
+	color: #990000;
+	}
+#menu .accordion a:active{}
