@@ -16,7 +16,7 @@
         return theDate;
     }
 %>
-Hello! The time is: <%= getDate() %>
+Hello! The time is: <%= getDate() %> bla bla
 
 </body>
 </html>
